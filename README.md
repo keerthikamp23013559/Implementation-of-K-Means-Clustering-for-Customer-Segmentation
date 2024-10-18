@@ -81,5 +81,7 @@ plt.title("Customer Segments")
 
 
 
+
+
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
