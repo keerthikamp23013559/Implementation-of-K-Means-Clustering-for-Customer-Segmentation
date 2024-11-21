@@ -27,7 +27,7 @@ step 8:Analyze the characteristics of each cluster to gain insights into custome
 ### Program to implement the K Means Clustering for Customer Segmentation.
 #### Developed by: KEERTHIKA M P
 #### RegisterNumber:  212223240071
-python
+```
 import pandas as pd
 import matplotlib.pyplot as plt
 data = pd.read_csv("Mall_Customers.csv")
@@ -72,6 +72,8 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="green",la
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",label="cluster4")
 plt.legend()
 plt.title("Customer Segments")
+```
+
 
 ## Output:
 
